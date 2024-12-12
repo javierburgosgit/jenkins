@@ -12,7 +12,7 @@ pipeline {
         stage('docker push') {
             steps {
                 script {
-                    sh "docker push javierburgos/jenkins:1.0.0-${BUILD_ID}"
+                    sh "docker push javierburgos/homer_page:1.0.0-${BUILD_ID}"
                 }
             }
         }
